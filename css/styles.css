@@ -1,0 +1,178 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-bold";
+}
+
+p {
+  color: #afafaf;
+  font-size: 0.9rem;
+}
+
+
+
+/* headings */
+.big-heading {
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+padding: 7% 15%;
+}
+/* sections */
+.colored-section{
+  background-color: #db6400;
+  color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+
+/* navigation-Bar */
+
+.navbar {
+    
+      padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* titlesection */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+
+}
+/* features */
+#features {
+
+
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #16697a;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #5c6e91;
+}
+
+/* testimonial-section */
+#testimonials {
+  background-color: #ffa62b;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press */
+
+#press {
+  background-color: #ffa62b;
+  padding-bottom: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+/* media-query */
+@media (max-width:1020px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
+
+
+
+#footer {
+
+  padding: 4% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
